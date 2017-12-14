@@ -1,0 +1,90 @@
+html{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin: auto;
+}
+footer{
+	width: 100%;
+	text-align: center;
+}
+body {
+	width: 90%;
+	max-width: 1220px;
+	margin: auto;
+}
+h3, h4{
+	text-align: center;
+}
+hr{
+	width: 90%;
+	height: 1px;
+	border-color: red;
+	background-color: red;
+}
+.article{
+	height: 100%;
+	width: 100%;
+}
+.films{
+	display: table;
+	height: 100%;
+}
+.descriptionFilms{
+	width: 80%;
+	text-align: left;
+	margin-left: 10%;
+}
+.filmsOne,
+.filmsTwo,
+.filmsThree,
+.filmsFour{
+	margin: auto;
+	width: 25%;
+	min-width: 250px;
+	float: left;
+}
+.imageFilms{
+	text-align: center;
+}
+.logotip{
+	height: 100%;
+	min-width: 100px;
+	float: left;
+}
+.mainText{
+	text-align: left;
+	width: 100%;
+	min-width: 150px;
+}
+.description{
+	min-height: 300px;
+	text-align: left;
+	line-height: 2;
+	font-size: 20px;
+	width: 100%;
+}
+.listMarking,
+.listNumbering{
+	width: 50%;
+	float: left;
+	min-width: 200px;
+}
+.list{
+	height: 100%;
+	float: left;
+	width: 100%;
+	display: table;
+	align-items: center;
+}
+.photo{
+	height: 290px;
+	float: right;
+	margin: 2px;
+}
