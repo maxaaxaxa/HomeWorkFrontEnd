@@ -1,90 +1,97 @@
-html{
-	height: 100%;
-	width: 100%;
-	margin: 0;
-	padding: 0;
+header
+{
+  display: flex;
+  align-items: center;
+  margin: auto;
 }
-header{
-	width: 100%;
-	display: flex;
-	align-items: center;
-	margin: auto;
+
+footer
+{
+  text-align: center;
 }
-footer{
-	width: 100%;
-	text-align: center;
+
+body 
+{
+  width: 90%;
+  max-width: 1220px;
+  margin: auto;
 }
-body {
-	width: 90%;
-	max-width: 1220px;
-	margin: auto;
+
+h3
+{
+  text-align: center;
 }
-h3, h4{
-	text-align: center;
+
+h4
+{
+  text-align: left;
 }
-hr{
-	width: 90%;
-	height: 1px;
-	border-color: red;
-	background-color: red;
+
+hr
+{
+  width: 90%;
+  height: 1px;
+  border-color: red;
+  background-color: red;
 }
-.article{
-	height: 100%;
-	width: 100%;
+
+.films
+{
+  display: table;
 }
-.films{
-	display: table;
-	height: 100%;
+
+.description_films
+{
+  width: 80%;
+  text-align: left;
+  margin-left: 10%;
 }
-.descriptionFilms{
-	width: 80%;
-	text-align: left;
-	margin-left: 10%;
+
+.the_dark_knight,
+.green_street_hooligans,
+.the_revenant,
+.wow
+{
+  float: left;
+  min-width: 250px;
 }
-.filmsOne,
-.filmsTwo,
-.filmsThree,
-.filmsFour{
-	margin: auto;
-	width: 25%;
-	min-width: 250px;
-	float: left;
+
+.image_films
+{
+  text-align: center;
 }
-.imageFilms{
-	text-align: center;
+
+.logotip
+{
+  float: left;
+  clear: both;
 }
-.logotip{
-	height: 100%;
-	min-width: 100px;
-	float: left;
+
+.description
+{
+  min-height: 300px;
+  text-align: left;
+  line-height: 2;
+  font-size: 20px;
 }
-.mainText{
-	text-align: left;
-	width: 100%;
-	min-width: 150px;
+
+.list_marking,
+.list_numbering
+{
+  width: 50%;
+  float: left;
+  min-width: 200px;
 }
-.description{
-	min-height: 300px;
-	text-align: left;
-	line-height: 2;
-	font-size: 20px;
-	width: 100%;
+
+.list
+{
+  width: 100%;
+  display: table;
+  align-items: center;
 }
-.listMarking,
-.listNumbering{
-	width: 50%;
-	float: left;
-	min-width: 200px;
-}
-.list{
-	height: 100%;
-	float: left;
-	width: 100%;
-	display: table;
-	align-items: center;
-}
-.photo{
-	height: 290px;
-	float: right;
-	margin: 2px;
+
+.photo
+{ 
+  float: right;
+  margin-left: 25px;
 }

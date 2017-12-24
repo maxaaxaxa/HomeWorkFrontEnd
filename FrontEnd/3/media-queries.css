@@ -1,0 +1,33 @@
+@media screen and (max-width: 350px)
+{
+  .the_dark_knight,
+  .green_street_hooligans,
+  .the_revenant,
+  .wow
+  {
+  	clear: both;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1250px)
+{
+  .the_dark_knight,
+  .green_street_hooligans,
+  .the_revenant,
+  .wow
+  {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1250px)
+{
+  .the_dark_knight,
+  .green_street_hooligans,
+  .the_revenant,
+  .wow
+  {
+    width: 25%;
+  }
+}
