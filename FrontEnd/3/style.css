@@ -69,7 +69,6 @@ hr
 
 .description
 {
-  min-height: 300px;
   text-align: left;
   line-height: 2;
   font-size: 20px;
@@ -94,4 +93,9 @@ hr
 { 
   float: right;
   margin-left: 25px;
+}
+
+.clear
+{
+  clear: both;
 }
