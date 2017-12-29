@@ -1,50 +1,50 @@
 header
 {
-  display: flex;
-  align-items: center;
-  margin: auto;
+    display: flex;
+    align-items: center;
+    margin: auto;
 }
 
 footer
 {
-  text-align: center;
+    text-align: center;
 }
 
 body 
 {
-  width: 90%;
-  max-width: 1220px;
-  margin: auto;
+    width: 90%;
+    max-width: 1220px;
+    margin: auto;
 }
 
 h3
 {
-  text-align: center;
+    text-align: center;
 }
 
 h4
 {
-  text-align: left;
+    text-align: left;
 }
 
 hr
 {
-  width: 90%;
-  height: 1px;
-  border-color: red;
-  background-color: red;
+    width: 90%;
+    height: 1px;
+    border-color: red;
+    background-color: red;
 }
 
 .films
 {
-  display: table;
+    display: table;
 }
 
 .description_films
 {
-  width: 80%;
-  text-align: left;
-  margin-left: 10%;
+    width: 80%;
+    text-align: left;
+    margin-left: 10%;
 }
 
 .the_dark_knight,
@@ -52,50 +52,50 @@ hr
 .the_revenant,
 .wow
 {
-  float: left;
-  min-width: 250px;
+    float: left;
+    min-width: 250px;
 }
 
 .image_films
 {
-  text-align: center;
+    text-align: center;
 }
 
 .logotip
 {
-  float: left;
-  clear: both;
+    float: left;
+    clear: both;
 }
 
 .description
 {
-  text-align: left;
-  line-height: 2;
-  font-size: 20px;
+    text-align: left;
+    line-height: 2;
+    font-size: 20px;
 }
 
 .list_marking,
 .list_numbering
 {
-  width: 50%;
-  float: left;
-  min-width: 200px;
+    width: 50%;
+    float: left;
+    min-width: 200px;
 }
 
 .list
 {
-  width: 100%;
-  display: table;
-  align-items: center;
+    width: 100%;
+    display: table;
+    align-items: center;
 }
 
 .photo
 { 
-  float: right;
-  margin-left: 25px;
+    float: right;
+    margin-left: 25px;
 }
 
 .clear
 {
-  clear: both;
+    clear: both;
 }
